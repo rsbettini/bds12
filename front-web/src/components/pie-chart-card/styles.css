@@ -1,6 +1,6 @@
 .pie-chart-card {
   width: 30%;
-  height: 35px;
+  padding-top: 35px;
   display: flex;
   justify-content: center;
 }
