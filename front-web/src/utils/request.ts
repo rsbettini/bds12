@@ -1,6 +1,6 @@
 import axios from 'axios';
-/*import { FilterData } from '../types';
-import { formatDateToServer } from './formatters';*/
+import { FilterData } from '../types';
+import { formatDateToServer } from './formatters';
 
 const baseURL = 'http://localhost:8080';
 
@@ -8,7 +8,7 @@ export const makeRequest = axios.create({
   baseURL
 });
 
-/*export const buildFilterParams = (
+export const buildFilterParams = (
   filterData?: FilterData,
   extraParams?: Record<string, unknown>
 ) => {
@@ -18,4 +18,4 @@ export const makeRequest = axios.create({
     gender: filterData?.gender,
     ...extraParams
   };
-};*/
+};
